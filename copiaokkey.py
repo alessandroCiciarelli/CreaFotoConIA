@@ -125,8 +125,6 @@ if(b):
 	   stato.success("Usa il tasto destro del mouse o tieni premuto sull' Immagine per salvarla")
 	   viewImg.image(imgOk)
 	   st.balloons()
-	   os.remove(style_path)
-	   os.remove(content_path)
 	   st.markdown('<bold> Scarica la foto e condividila sui tuoi social network per supportarci </bold>\
 	   <ul> \
 	  <li><a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fintelligenzaartificialeitalia.net%2F" target="blank" rel="noopener noreferrer">Condividi su Facebook</a></li> \
