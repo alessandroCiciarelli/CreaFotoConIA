@@ -18,7 +18,7 @@ style_path = ""
 content_image=""
 style_image=""
 loopfind = 0
-imgOk=os.path.dirname(__file__) +"/" + "white.jpg"
+imgOk=os.path.dirname(__file__) +"/" + "white.png"
 MYDIR = os.path.dirname(__file__) +"/"
 
 @st.cache
